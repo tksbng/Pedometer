@@ -28,6 +28,11 @@
 		FF7E5A7B17AC8C85001A4DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5A4B17AC8C85001A4DBB /* Foundation.framework */; };
 		FF7E5A8317AC8C85001A4DBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF7E5A8117AC8C85001A4DBB /* InfoPlist.strings */; };
 		FF7E5A8617AC8C86001A4DBB /* PedometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7E5A8517AC8C86001A4DBB /* PedometerTests.m */; };
+		FF7E5A9217AC8CCF001A4DBB /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7E5A9017AC8CCF001A4DBB /* AccelerometerFilter.m */; };
+		FF7E5A9317AC8CCF001A4DBB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7E5A9117AC8CCF001A4DBB /* icon.png */; };
+		FF7E5A9517AC9861001A4DBB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5A9417AC9861001A4DBB /* MessageUI.framework */; };
+		FF7E5A9717AC9DCA001A4DBB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5A9617AC9DCA001A4DBB /* MapKit.framework */; };
+		FF7E5A9917AC9DD6001A4DBB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5A9817AC9DD6001A4DBB /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,12 @@
 		FF7E5A8217AC8C85001A4DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF7E5A8417AC8C85001A4DBB /* PedometerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PedometerTests.h; sourceTree = "<group>"; };
 		FF7E5A8517AC8C86001A4DBB /* PedometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PedometerTests.m; sourceTree = "<group>"; };
+		FF7E5A8F17AC8CCF001A4DBB /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerFilter.h; sourceTree = "<group>"; };
+		FF7E5A9017AC8CCF001A4DBB /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerFilter.m; sourceTree = "<group>"; };
+		FF7E5A9117AC8CCF001A4DBB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FF7E5A9417AC9861001A4DBB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FF7E5A9617AC9DCA001A4DBB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FF7E5A9817AC9DD6001A4DBB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +87,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7E5A9917AC9DD6001A4DBB /* CoreLocation.framework in Frameworks */,
+				FF7E5A9717AC9DCA001A4DBB /* MapKit.framework in Frameworks */,
+				FF7E5A9517AC9861001A4DBB /* MessageUI.framework in Frameworks */,
 				FF7E5A4A17AC8C85001A4DBB /* UIKit.framework in Frameworks */,
 				FF7E5A4C17AC8C85001A4DBB /* Foundation.framework in Frameworks */,
 				FF7E5A4E17AC8C85001A4DBB /* CoreGraphics.framework in Frameworks */,
@@ -98,6 +112,9 @@
 		FF7E5A3D17AC8C85001A4DBB = {
 			isa = PBXGroup;
 			children = (
+				FF7E5A8F17AC8CCF001A4DBB /* AccelerometerFilter.h */,
+				FF7E5A9017AC8CCF001A4DBB /* AccelerometerFilter.m */,
+				FF7E5A9117AC8CCF001A4DBB /* icon.png */,
 				FF7E5A4F17AC8C85001A4DBB /* Pedometer */,
 				FF7E5A7E17AC8C85001A4DBB /* PedometerTests */,
 				FF7E5A4817AC8C85001A4DBB /* Frameworks */,
@@ -117,6 +134,9 @@
 		FF7E5A4817AC8C85001A4DBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF7E5A9817AC9DD6001A4DBB /* CoreLocation.framework */,
+				FF7E5A9617AC9DCA001A4DBB /* MapKit.framework */,
+				FF7E5A9417AC9861001A4DBB /* MessageUI.framework */,
 				FF7E5A4917AC8C85001A4DBB /* UIKit.framework */,
 				FF7E5A4B17AC8C85001A4DBB /* Foundation.framework */,
 				FF7E5A4D17AC8C85001A4DBB /* CoreGraphics.framework */,
@@ -257,6 +277,7 @@
 				FF7E5A6A17AC8C85001A4DBB /* first@2x.png in Resources */,
 				FF7E5A6F17AC8C85001A4DBB /* second.png in Resources */,
 				FF7E5A7117AC8C85001A4DBB /* second@2x.png in Resources */,
+				FF7E5A9317AC8CCF001A4DBB /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +316,7 @@
 				FF7E5A5A17AC8C85001A4DBB /* AppDelegate.m in Sources */,
 				FF7E5A6617AC8C85001A4DBB /* FirstViewController.m in Sources */,
 				FF7E5A6D17AC8C85001A4DBB /* SecondViewController.m in Sources */,
+				FF7E5A9217AC8CCF001A4DBB /* AccelerometerFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

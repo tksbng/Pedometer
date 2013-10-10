@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AccelerometerFilter.h"
+#import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMailComposeViewController.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController<UIAccelerometerDelegate, MFMailComposeViewControllerDelegate>
 
 @end
